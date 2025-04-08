@@ -29,7 +29,7 @@ Através da análise exploratória de dados (EDA) e modelagem preditiva, este pr
 1.  **Clonar o repositório:**
 
     ```bash
-    git clone [link para o repositório]
+    git clone [https://github.com/ludovina-magalhaes/Airbnb-Porto]
     cd Data-Analytic-Airbnb-Porto
     ```
 
