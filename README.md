@@ -3,7 +3,7 @@
 
 Este projeto visa analisar os preços de anúncios do Airbnb na cidade do Porto, Portugal, e identificar os principais fatores que influenciam esses preços. O objetivo é fornecer insights valiosos para anfitriões, hóspedes e outros interessados no mercado de arrendamento de curta duração.
 
-## 📖 Descrição
+## Descrição
 
 Através da análise exploratória de dados (EDA) e modelagem preditiva, este projeto procura responder a perguntas como:
 
@@ -12,7 +12,7 @@ Através da análise exploratória de dados (EDA) e modelagem preditiva, este pr
 *   Quais outras características (ex: número de reviews, disponibilidade) afetam o preço?
 *   É possível prever o preço de um anúncio com base nas suas características?
 
-## ⚙️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 *   **Linguagem de Programação:** Python
 *   **Bibliotecas:**
@@ -24,7 +24,7 @@ Através da análise exploratória de dados (EDA) e modelagem preditiva, este pr
 
 
 
-## 💻 Como Executar o Projeto
+## Como Executar o Projeto
 
 1.  **Clonar o repositório:**
 
@@ -53,7 +53,7 @@ Através da análise exploratória de dados (EDA) e modelagem preditiva, este pr
     jupyter notebook Airbnb-Porto.ipynb
     ```
 
-## 📈 Resultados e Insights
+## Resultados e Insights
 
 *   **Distribuição de Preços:** A maioria dos Airbnbs no Porto tem preços entre X e Y euros por noite, com alguns outliers de preços mais elevados.
 *   **Tipos de Quarto:** Os apartamentos inteiros (`Entire home/apt`) tendem a ser mais caros do que os quartos privados (`Private room`) e os quartos partilhados (`Shared room`).
@@ -62,7 +62,7 @@ Através da análise exploratória de dados (EDA) e modelagem preditiva, este pr
 
 **Nota:** Estes são apenas exemplos. Os resultados e insights específicos dependerão dos dados e dos modelos utilizados.
 
-## 🛠️ Melhorias Futuras
+## Melhorias Futuras
 
 *   **Exploração de Dados Adicionais:** Incluir dados externos (ex: clima, eventos) para enriquecer a análise.
 *   **Modelagem Mais Avançada:** Experimentar modelos de machine learning mais complexos, como Random Forest ou Gradient Boosting.
@@ -70,7 +70,7 @@ Através da análise exploratória de dados (EDA) e modelagem preditiva, este pr
 *   **Visualização Interativa:** Criar visualizações interativas para facilitar a exploração dos dados.
 *   **Deploy do Modelo:** Implementar o modelo como uma API para prever os preços dos Airbnbs em tempo real.
 
-## 🤝 Contribuições
+## Contribuições
 
 Contribuições são bem-vindas! Se quiseres contribuir para este projeto, podes:
 
@@ -78,7 +78,7 @@ Contribuições são bem-vindas! Se quiseres contribuir para este projeto, podes
 *   Implementar as tuas alterações.
 *   Enviar um pull request.
 
-## 📄 Licença
+##  Licença
 
 Este projeto está licenciado sob a licença [Nome da Licença] - vê o ficheiro `LICENSE` para mais detalhes.
 
