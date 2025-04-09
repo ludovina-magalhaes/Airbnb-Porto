@@ -61,14 +61,10 @@ A metodologia seguida neste projeto consiste em:
 ## Estrutura do Projeto
 
 ## Resultados
+![image](https://github.com/user-attachments/assets/4a0c6c58-6206-452a-827d-7a4f270a27e9)
+![image](https://github.com/user-attachments/assets/ffe92382-5cdd-4228-9cf7-cd95a32c6be5)
+![image](https://github.com/user-attachments/assets/1477c7b0-71c2-4e6f-89b1-32d1faa55576)
 
-[Aqui, inclua um resumo dos principais resultados da sua análise.  Use gráficos e tabelas para ilustrar seus achados.  Exemplos:]
-
-*   "O preço médio dos aluguéis no Porto é de X euros por noite."
-*   "As áreas mais caras são Y e Z."
-*   "Apartamentos são o tipo de imóvel mais comum."
-*   "A maioria dos anfitriões tem uma taxa de resposta alta."
-*   [Adicione links para imagens dos seus gráficos, se possível.]
 
 ## Próximos Passos
 
