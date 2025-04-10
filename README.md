@@ -1,6 +1,6 @@
 # Análise dos Dados do Airbnb no Porto
 
-Este repositório contém um notebook Jupyter (`Airbnb-Porto.ipynb`) que explora e analisa dados do Airbnb na cidade do Porto. O objetivo é fornecer *insights* sobre o mercado de aluguel de curto prazo, identificar tendências e responder perguntas sobre preços, disponibilidade, tipos de acomodação e outros fatores relevantes.
+Este repositório contém um notebook Jupyter (`Airbnb-Porto.ipynb`) que explora e analisa dados do Airbnb na cidade do Porto. O objetivo é fornecer *insights* sobre o mercado de aluguer de curto prazo, identificar tendências e responder a perguntas sobre preços, disponibilidade, tipos de acomodação e outros fatores relevantes.
 
 ## Conteúdo
 
