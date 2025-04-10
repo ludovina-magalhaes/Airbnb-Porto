@@ -74,14 +74,9 @@ Este projeto procura responder a questões como:
 
     Execute as células do *notebook* sequencialmente para reproduzir a análise.
 
-## Contribuições
-
-Contribuições para este projeto são bem-vindas! Se encontrar erros, tiver sugestões de melhorias ou quiser adicionar novas análises, sinta-se à vontade para abrir um *pull request* ou criar um *issue* no repositório.
 
 ## Licença
 
 Este projeto está licenciado sob a licença MIT - consulte o ficheiro [LICENSE](LICENSE) para mais detalhes.
 
-## Disclaimer
 
-Este projeto é apenas para fins educacionais e de demonstração. A informação obtida a partir dos dados do Airbnb pode não ser totalmente precisa ou completa e deve ser utilizada com cautela.
