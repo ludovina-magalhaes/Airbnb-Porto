@@ -20,8 +20,6 @@ Este projeto procura responder a questões como:
 
 *   **`Airbnb-Porto.ipynb`**: *Notebook* Jupyter com o código da análise exploratória de dados. Este ficheiro contém os passos de limpeza, tratamento e visualização dos dados, bem como as conclusões e insights obtidos.
 *   **`README.md`**: Este ficheiro, que fornece uma descrição geral do projeto e instruções para a sua utilização.
-*   **`requirements.txt`**: Lista das dependências necessárias para executar o projeto. Use-o para instalar as bibliotecas requeridas.
-*   **`[Possíveis outros ficheiros]`**: Poderão existir outros ficheiros, como *datasets* (se permitidos pela política do Airbnb e incluídos no repositório) ou scripts de apoio.
 
 ## Tecnologias Utilizadas
 
