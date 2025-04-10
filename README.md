@@ -1,156 +1,58 @@
-# Airbnb-Porto
-# Data Analytics Airbnb - Porto
-
-Este projeto tem como objetivo realizar uma análise exploratória e visualização de dados dos anúncios do Airbnb na cidade do Porto, Portugal. O objetivo é obter *insights* sobre o mercado de aluguel de curta duração, identificar tendências de preços, distribuição de anúncios, características dos imóveis e outros fatores relevantes.
-
-## Sumário
-
-*   [Contexto](#contexto)
-*   [Objetivos](#objetivos)
-*   [Fontes de Dados](#fontes-de-dados)
-*   [Metodologia](#metodologia)
-*   [Tecnologias Utilizadas](#tecnologias-utilizadas)
-*   [Estrutura do Projeto](#estrutura-do-projeto)
-*   [Resultados](#resultados)
-*   [Próximos Passos](#próximos-passos)
-*   [Como Executar o Código](#como-executar-o-código)
-*   [Contribuição](#contribuição)
-*   [Licença](#licença)
-*   [Autor](#autor)
-
-## Contexto
-
-O Airbnb revolucionou o mercado de hospedagem, e a cidade do Porto tem visto um crescimento significativo na oferta de aluguéis de curto prazo.  Analisar esses dados pode fornecer informações valiosas para proprietários, investidores, turistas e para o planejamento urbano da cidade.
-
-## Objetivos
-
-Os principais objetivos deste projeto são:
-
-*   Realizar uma Análise Exploratória de Dados (EDA) detalhada do conjunto de dados do Airbnb do Porto.
-*   Visualizar a distribuição dos anúncios por localização, preço, tipo de imóvel, etc.
-*   Identificar os fatores que mais influenciam o preço dos aluguéis.
-*   Analisar a disponibilidade dos imóveis ao longo do tempo.
-*   (Opcional) Desenvolver modelos preditivos para estimar preços ou demanda.
-
-## Fontes de Dados
-
-Os dados utilizados neste projeto foram obtidos através de [especifique a fonte de dados aqui - Ex: scraping do site do Airbnb, Inside Airbnb, etc.].  Detalhes sobre a coleta e o tratamento dos dados podem ser encontrados no [nome do script de tratamento de dados, se houver].
-
-## Metodologia
-
-A metodologia seguida neste projeto consiste em:
-
-1.  **Coleta de Dados:** Obtenção dos dados do Airbnb.
-2.  **Limpeza e Preparação dos Dados:** Tratamento de dados faltantes, remoção de outliers e conversão de tipos de dados.
-3.  **Análise Exploratória de Dados (EDA):**  Utilização de técnicas estatísticas e visualizações para entender os dados.
-4.  **Visualização de Dados:** Criação de gráficos e mapas para apresentar os resultados da análise.
-5.  **Modelagem (Opcional):** Desenvolvimento de modelos preditivos utilizando algoritmos de Machine Learning.
-6.  **Interpretação dos Resultados:** Análise dos resultados obtidos e extração de *insights* relevantes.
-
-## Tecnologias Utilizadas
-
-*   **Python:** Linguagem de programação principal.
-*   **Pandas:** Para manipulação e análise de dados tabulares.
-*   **NumPy:** Para cálculos numéricos.
-*   **Matplotlib:** Para criação de gráficos e visualizações.
-*   **Seaborn:** Para criação de visualizações estatísticas mais avançadas.
-*   **Scikit-learn (Opcional):** Para modelagem preditiva.
-*   **GeoPandas (Opcional):** Para análise geoespacial.
-*   **Jupyter Notebook:** Ambiente de desenvolvimento interativo.
-
-## Estrutura do Projeto
-
-## Resultados
-![image](https://github.com/user-attachments/assets/4a0c6c58-6206-452a-827d-7a4f270a27e9)
-![image](https://github.com/user-attachments/assets/ffe92382-5cdd-4228-9cf7-cd95a32c6be5)
-![image](https://github.com/user-attachments/assets/1477c7b0-71c2-4e6f-89b1-32d1faa55576)
-
-
-## Próximos Passos
-
-*   Realizar uma análise mais aprofundada dos fatores que influenciam o preço dos aluguéis.
-*   Desenvolver um modelo preditivo para estimar o preço dos aluguéis com base em suas características.
-*   Analisar o impacto do Airbnb no mercado imobiliário do Porto.
-*   Integrar dados de outras fontes (ex: dados demográficos, pontos de interesse) para enriquecer a análise.
-
-## Como Executar o Código
-
-1.  Clone este repositório: `git clone [https://github.com/ludovina-magalhaes/Airbnb-Porto]`
-2.  Crie um ambiente virtual: `python -m venv venv`
-3.  Ative o ambiente virtual:
-    *   No Windows: `venv\Scripts\activate`
-    *   No Linux/macOS: `source venv/bin/activate`
-4.  Instale as dependências: `pip install -r requirements.txt`
-5.  Execute os notebooks Jupyter na pasta `notebooks/`.
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir *issues* e enviar *pull requests* com melhorias, correções ou novas funcionalidades.
-
-## Licença
-
-Este projeto está licenciado sob a licença [MIT License].
-
-
-<<<<<<< HEAD
-=======
-
-## Como Executar o Projeto
-
-1.  **Clonar o repositório:**
-
-    ```bash
-    git clone [https://github.com/ludovina-magalhaes/Airbnb-Porto]
-    cd Data-Analytic-Airbnb-Porto
-    ```
-
-2.  **Criar um ambiente virtual (opcional, mas recomendado):**
-
-    ```bash
-    python3 -m venv .venv
-    source .venv/bin/activate  # No Linux/macOS
-    .venv\Scripts\activate  # No Windows
-    ```
-
-3.  **Instalar as dependências:**
-
-    ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn
-    ```
-
-4.  **Abrir e executar o notebook Jupyter:**
-
-    ```bash
-    jupyter notebook Airbnb-Porto.ipynb
-    ```
-
-## Resultados e Insights
-
-*   **Distribuição de Preços:** A maioria dos Airbnbs no Porto tem preços entre X e Y euros por noite, com alguns outliers de preços mais elevados.
-*   **Tipos de Quarto:** Os apartamentos inteiros (`Entire home/apt`) tendem a ser mais caros do que os quartos privados (`Private room`) e os quartos partilhados (`Shared room`).
-*   **Localização:** Bairros como [Lista dos bairros mais caros] têm os preços médios mais elevados.
-*   **Modelagem Preditiva:** Um modelo de regressão linear conseguiu prever o preço com uma precisão de X% (R² = X).
-
-**Nota:** Estes são apenas exemplos. Os resultados e insights específicos dependerão dos dados e dos modelos utilizados.
-
-## Melhorias Futuras
-
-*   **Exploração de Dados Adicionais:** Incluir dados externos (ex: clima, eventos) para enriquecer a análise.
-*   **Modelagem Mais Avançada:** Experimentar modelos de machine learning mais complexos, como Random Forest ou Gradient Boosting.
-*   **Feature Engineering:** Criar novas features (ex: distância a pontos de interesse) que possam melhorar a precisão do modelo.
-*   **Visualização Interativa:** Criar visualizações interativas para facilitar a exploração dos dados.
-*   **Deploy do Modelo:** Implementar o modelo como uma API para prever os preços dos Airbnbs em tempo real.
-
-## Contribuições
-
-Contribuições são bem-vindas! Se quiseres contribuir para este projeto, podes:
-
-*   Criar um fork do repositório.
-*   Implementar as tuas alterações.
-*   Enviar um pull request.
-
-##  Licença
-
-Este projeto está licenciado sob a licença [Nome da Licença] - vê o ficheiro `LICENSE` para mais detalhes.
-
->>>>>>> 0c95f1680799b817c99567f9b96f5d770b9af823
+Análise dos Dados do Airbnb no Porto
+Este repositório contém um notebook Jupyter (Airbnb-Porto.ipynb) que explora e analisa dados do Airbnb na cidade do Porto. O objetivo principal é fornecer insights sobre o mercado de aluguel de curto prazo no Porto, identificar tendências, e responder a perguntas relevantes sobre preços, disponibilidade, tipos de acomodação e outros fatores que influenciam o mercado.
+Conteúdo
+Airbnb-Porto.ipynb: Este é o notebook principal que contém todo o código e a análise. Ele inclui:
+Importação e limpeza dos dados do Airbnb.
+Análise exploratória de dados (EDA) para entender a distribuição das variáveis e identificar padrões.
+Visualizações gráficas para comunicar os insights de forma clara e concisa.
+Análise de preços, disponibilidade, tipos de acomodação e outros fatores relevantes.
+Possível modelagem preditiva (dependendo da complexidade da análise realizada).
+Conclusões e insights finais sobre o mercado do Airbnb no Porto.
+Fontes de Dados
+Os dados utilizados neste projeto foram obtidos do site Inside Airbnb (http://insideairbnb.com/get-the-data/). Este site fornece conjuntos de dados públicos com informações sobre listagens do Airbnb em diversas cidades ao redor do mundo.
+Metodologia
+O notebook segue uma abordagem típica de análise de dados, que inclui as seguintes etapas:
+Coleta de Dados: Obtenção dos dados do Inside Airbnb e carregamento em um DataFrame do Pandas.
+Limpeza de Dados: Tratamento de valores ausentes, remoção de outliers e formatação de dados para garantir a qualidade da análise.
+Análise Exploratória de Dados (EDA):
+Análise descritiva das variáveis para entender suas distribuições.
+Visualizações gráficas (histogramas, gráficos de dispersão, boxplots, etc.) para identificar padrões e relações entre as variáveis.
+Análise de correlação para identificar variáveis que se movem juntas.
+Análise Específica: Investigação de questões específicas sobre o mercado do Airbnb no Porto, como:
+Quais são os bairros com os preços mais altos?
+Qual é a variação dos preços ao longo do ano?
+Quais são os tipos de acomodação mais comuns e seus preços médios?
+Como a disponibilidade afeta os preços?
+(Opcional) Criação de modelos preditivos para prever preços com base em outras variáveis.
+Conclusões e Insights: Apresentação dos principais insights e conclusões da análise.
+Bibliotecas Utilizadas
+Este projeto utiliza as seguintes bibliotecas Python:
+Pandas: Para manipulação e análise de dados tabulares.
+NumPy: Para computação numérica.
+Matplotlib: Para criação de gráficos e visualizações.
+Seaborn: Para criação de visualizações estatísticas mais avançadas.
+Scikit-learn (sklearn): (Opcional) Para modelagem preditiva.
+Certifique-se de ter estas bibliotecas instaladas antes de executar o notebook. Você pode instalá-las usando o pip:
+pip install pandas numpy matplotlib seaborn scikit-learn
+Use code with caution.
+Bash
+Como Executar o Notebook
+Clone este repositório para o seu computador:
+git clone https://github.com/ludovina-magalhaes/Airbnb-Porto.git
+Use code with caution.
+Bash
+Navegue até o diretório do projeto:
+cd Airbnb-Porto
+Use code with caution.
+Bash
+Certifique-se de ter as bibliotecas necessárias instaladas (ver "Bibliotecas Utilizadas").
+Execute o notebook Jupyter:
+jupyter notebook Airbnb-Porto.ipynb
+Use code with caution.
+Bash
+Contribuições
+Contribuições para este projeto são bem-vindas! Se você encontrar erros, tiver sugestões de melhorias ou quiser adicionar novas análises, sinta-se à vontade para abrir um pull request.
+Licença
+Este projeto está sob a licença [Inserir tipo de licença aqui, ex: MIT License].
+Autor
+Ludovina Magalhães
