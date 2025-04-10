@@ -1,63 +1,110 @@
-# Análise dos Dados do Airbnb no Porto
+Airbnb Porto: Análise Exploratória e Insights
 
-Este repositório contém um notebook Jupyter (`Airbnb-Porto.ipynb`) que explora e analisa dados do Airbnb na cidade do Porto. O objetivo é fornecer *insights* sobre o mercado de aluguer de curto prazo, identificar tendências e responder a perguntas sobre preços, disponibilidade, tipos de acomodação e outros fatores relevantes.
+![alt text](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## Conteúdo
+Este repositório contém um projeto de análise exploratória de dados (EDA) sobre anúncios do Airbnb na cidade do Porto. O objetivo principal é fornecer insights valiosos sobre o mercado de alojamento local na região, identificando padrões, tendências e oportunidades.
 
-*   **`Airbnb-Porto.ipynb`**: Notebook principal com o código e a análise, incluindo:
-    *   Importação e limpeza dos dados do Airbnb.
-    *   Análise exploratória de dados (EDA).
-    *   Visualizações gráficas.
-    *   Análise de preços, disponibilidade e tipos de acomodação.
-    *   (Possivelmente) Modelagem preditiva.
-    *   Conclusões e *insights* finais.
+Descrição do Projeto
 
-## Dados
+O projeto é desenvolvido em Python, utilizando a biblioteca Pandas para manipulação e análise de dados, e outras bibliotecas como Matplotlib e Seaborn para visualização. A análise é realizada a partir de um dataset do Airbnb, explorando diversas variáveis como preços, tipos de propriedade, localização, avaliações e número de hóspedes.
 
-Os dados foram obtidos do [Inside Airbnb](http://insideairbnb.com/get-the-data/).  É crucial utilizar os datasets específicos que foram utilizados na análise para garantir a reprodutibilidade (link para os arquivos específicos aqui, se possível).
+Este projeto procura responder a questões como:
 
-## Metodologia
+Qual a distribuição dos preços dos alojamentos no Porto?
 
-O notebook segue as seguintes etapas:
+Quais os bairros com maior concentração de anúncios?
 
-1.  **Coleta de Dados**: Carregamento dos dados do Inside Airbnb em DataFrames do Pandas.
-2.  **Limpeza de Dados**: Tratamento de valores ausentes, *outliers* e formatação de dados.
-3.  **Análise Exploratória de Dados (EDA)**:
-    *   Análise descritiva das variáveis.
-    *   Visualizações gráficas (histogramas, dispersão, *boxplots*, etc.).
-    *   Análise de correlação.
-4.  **Análise Específica**: Investigação de questões como:
-    *   Bairros com os preços mais altos.
-    *   Variação dos preços ao longo do ano.
-    *   Tipos de acomodação mais comuns e seus preços médios.
-    *   Impacto da disponibilidade nos preços.
-    *   (Opcional) Modelos preditivos para preços.
-5.  **Conclusões e *Insights***: Apresentação dos principais achados.
+Existe alguma correlação entre o preço e o número de avaliações?
 
-## Bibliotecas
+Quais os tipos de propriedade mais comuns e os seus preços médios?
 
-*   `pandas`: Manipulação de dados.
-*   `numpy`: Computação numérica.
-*   `matplotlib`: Criação de gráficos.
-*   `seaborn`: Visualizações estatísticas avançadas.
-*   `scikit-learn` (`sklearn`): (Opcional) Modelagem preditiva.
+Qual a influência da localização no preço do alojamento?
 
-Instale as bibliotecas:
+Conteúdo do Repositório
 
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn
+Airbnb-Porto.ipynb: Notebook Jupyter com o código da análise exploratória de dados. Este ficheiro contém os passos de limpeza, tratamento e visualização dos dados, bem como as conclusões e insights obtidos.
 
-**Explicação das mudanças e melhorias:**
+README.md: Este ficheiro, que fornece uma descrição geral do projeto e instruções para a sua utilização.
 
-*   **Formatação Markdown:** Usei a sintaxe markdown para cabeçalhos (`#`, `##`), listas (`*`, `-`), e formatação de código (```bash ... ```).  Isso torna o README muito mais legível no GitHub.
-*   **Ênfase:** Usei `*itálico*` para destacar termos importantes como "insights".
-*   **Instruções Claras:** As instruções de instalação e execução são mais diretas.
-*   **Observações:** As observações adicionais do README anterior foram integradas no corpo do texto, tornando-o mais conciso.
-*   **Seção de Resultados Notáveis:** Adicionei uma seção para destacar os principais *insights* da sua análise. Isso é *muito* importante, pois permite que as pessoas entendam rapidamente o valor do seu trabalho.  **Preencha esta seção com os achados reais da sua análise!**
-*   **Seção de Próximos Passos (Opcional):** Incluí uma seção para indicar como o projeto pode ser expandido no futuro.
-*   **Seção de Considerações Éticas (Opcional):** Uma breve menção de potenciais preocupações éticas é um bom sinal de maturidade.
-*   **Link Específico para os Dados:** Insisti na importância de incluir o link *específico* para os datasets que você usou do Inside Airbnb (se possível). Isso é crucial para a reprodutibilidade.
-*   **Remoção de Frases Desnecessárias:** Eliminei frases redundantes e deixei o texto mais direto e objetivo.
-*   **Linguagem Mais Profissional:** A linguagem foi revisada para ser mais profissional e adequada para um README de projeto.
+[Possíveis outros ficheiros]: Poderão existir outros ficheiros, como datasets (se permitidos pela política do Airbnb e incluídos no repositório) ou scripts de apoio.
 
-Lembre-se de substituir os textos entre parênteses (`(...)`) pelas informações específicas do seu projeto!  Em particular, **preencha a seção "Resultados Notáveis" com os principais achados da sua análise.** Isso é o que realmente vai atrair a atenção para o seu trabalho.
+Tecnologias Utilizadas
+
+Python: Linguagem de programação utilizada para a análise de dados.
+
+Pandas: Biblioteca para manipulação e análise de dados tabulares.
+
+Matplotlib: Biblioteca para criação de visualizações estáticas, interativas e animadas em Python.
+
+Seaborn: Biblioteca para criação de visualizações estatísticas informativas e atraentes, baseada em Matplotlib.
+
+Jupyter Notebook: Ambiente interativo para desenvolvimento e documentação do projeto.
+
+Como Utilizar
+
+Clonar o Repositório:
+
+git clone https://github.com/ludovina-magalhaes/Airbnb-Porto.git
+cd Airbnb-Porto
+
+
+Instalar as Dependências:
+
+Certifique-se de que tem o Python instalado no seu sistema. Recomenda-se a utilização de um ambiente virtual para isolar as dependências do projeto.
+
+python -m venv venv
+source venv/bin/activate  # Para Linux/macOS
+venv\Scripts\activate  # Para Windows
+pip install -r requirements.txt #Se tiver um ficheiro requirements.txt
+IGNORE_WHEN_COPYING_START
+content_copy
+download
+Use code with caution.
+Bash
+IGNORE_WHEN_COPYING_END
+
+Caso não tenha requirements.txt instale individualmente:
+
+pip install pandas matplotlib seaborn jupyter
+IGNORE_WHEN_COPYING_START
+content_copy
+download
+Use code with caution.
+Bash
+IGNORE_WHEN_COPYING_END
+
+Executar o Notebook:
+
+Abra o ficheiro Airbnb-Porto.ipynb no Jupyter Notebook:
+
+jupyter notebook
+IGNORE_WHEN_COPYING_START
+content_copy
+download
+Use code with caution.
+Bash
+IGNORE_WHEN_COPYING_END
+
+Ou utilize o Jupyter Lab:
+
+jupyter lab
+IGNORE_WHEN_COPYING_START
+content_copy
+download
+Use code with caution.
+Bash
+IGNORE_WHEN_COPYING_END
+
+Execute as células do notebook sequencialmente para reproduzir a análise.
+
+Contribuições
+
+Contribuições para este projeto são bem-vindas! Se encontrar erros, tiver sugestões de melhorias ou quiser adicionar novas análises, sinta-se à vontade para abrir um pull request ou criar um issue no repositório.
+
+Licença
+
+Este projeto está licenciado sob a licença MIT - consulte o ficheiro LICENSE para mais detalhes.
+
+Disclaimer
+
+Este projeto é apenas para fins educacionais e de demonstração. A informação obtida a partir dos dados do Airbnb pode não ser totalmente precisa ou completa e deve ser utilizada com cautela.
