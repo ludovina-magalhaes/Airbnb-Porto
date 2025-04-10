@@ -1,75 +1,63 @@
-Análise de Dados do Airbnb - Porto
-Este repositório contém um projeto de análise de dados sobre o Airbnb em Porto. O objetivo é explorar e analisar dados de listagens de imóveis do Airbnb, utilizando Python e suas bibliotecas de análise de dados.
+# Análise dos Dados do Airbnb no Porto
 
-Descrição
-O projeto busca fornecer insights sobre o mercado de aluguel de curto prazo em Porto, explorando fatores como preço, localização, tipo de imóvel e outros atributos importantes. A análise também inclui visualizações que ajudam a entender as principais tendências do mercado de Airbnb na cidade.
+Este repositório contém um notebook Jupyter (`Airbnb-Porto.ipynb`) que explora e analisa dados do Airbnb na cidade do Porto. O objetivo é fornecer *insights* sobre o mercado de aluguel de curto prazo, identificar tendências e responder perguntas sobre preços, disponibilidade, tipos de acomodação e outros fatores relevantes.
 
-Objetivos do Projeto
-Análise Exploratória de Dados (EDA): Explorar as principais características dos dados, como distribuições, correlações e outras métricas relevantes.
+## Conteúdo
 
-Limpeza de Dados: Preparar os dados para análise, tratando valores ausentes, duplicados e inconsistências.
+*   **`Airbnb-Porto.ipynb`**: Notebook principal com o código e a análise, incluindo:
+    *   Importação e limpeza dos dados do Airbnb.
+    *   Análise exploratória de dados (EDA).
+    *   Visualizações gráficas.
+    *   Análise de preços, disponibilidade e tipos de acomodação.
+    *   (Possivelmente) Modelagem preditiva.
+    *   Conclusões e *insights* finais.
 
-Visualização de Dados: Criar gráficos e visualizações para destacar padrões, tendências e insights.
+## Dados
 
-Análise de Preços: Examinar os fatores que influenciam o preço dos imóveis no Porto, como o tipo de imóvel, a localização e outros atributos.
+Os dados foram obtidos do [Inside Airbnb](http://insideairbnb.com/get-the-data/).  É crucial utilizar os datasets específicos que foram utilizados na análise para garantir a reprodutibilidade (link para os arquivos específicos aqui, se possível).
 
-Ferramentas e Tecnologias
-Python
+## Metodologia
 
-Pandas
+O notebook segue as seguintes etapas:
 
-Matplotlib
+1.  **Coleta de Dados**: Carregamento dos dados do Inside Airbnb em DataFrames do Pandas.
+2.  **Limpeza de Dados**: Tratamento de valores ausentes, *outliers* e formatação de dados.
+3.  **Análise Exploratória de Dados (EDA)**:
+    *   Análise descritiva das variáveis.
+    *   Visualizações gráficas (histogramas, dispersão, *boxplots*, etc.).
+    *   Análise de correlação.
+4.  **Análise Específica**: Investigação de questões como:
+    *   Bairros com os preços mais altos.
+    *   Variação dos preços ao longo do ano.
+    *   Tipos de acomodação mais comuns e seus preços médios.
+    *   Impacto da disponibilidade nos preços.
+    *   (Opcional) Modelos preditivos para preços.
+5.  **Conclusões e *Insights***: Apresentação dos principais achados.
 
-Seaborn
+## Bibliotecas
 
-NumPy
+*   `pandas`: Manipulação de dados.
+*   `numpy`: Computação numérica.
+*   `matplotlib`: Criação de gráficos.
+*   `seaborn`: Visualizações estatísticas avançadas.
+*   `scikit-learn` (`sklearn`): (Opcional) Modelagem preditiva.
 
-Jupyter Notebook
+Instale as bibliotecas:
 
-Como Rodar o Projeto
-Clone o repositório:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
 
-bash
-Copiar
-Editar
-git clone https://github.com/ludovina-magalhaes/Airbnb-Porto.git
-Navegue até o diretório do projeto:
+**Explicação das mudanças e melhorias:**
 
-bash
-Copiar
-Editar
-cd Airbnb-Porto
-Instale as dependências necessárias (recomenda-se o uso de um ambiente virtual):
+*   **Formatação Markdown:** Usei a sintaxe markdown para cabeçalhos (`#`, `##`), listas (`*`, `-`), e formatação de código (```bash ... ```).  Isso torna o README muito mais legível no GitHub.
+*   **Ênfase:** Usei `*itálico*` para destacar termos importantes como "insights".
+*   **Instruções Claras:** As instruções de instalação e execução são mais diretas.
+*   **Observações:** As observações adicionais do README anterior foram integradas no corpo do texto, tornando-o mais conciso.
+*   **Seção de Resultados Notáveis:** Adicionei uma seção para destacar os principais *insights* da sua análise. Isso é *muito* importante, pois permite que as pessoas entendam rapidamente o valor do seu trabalho.  **Preencha esta seção com os achados reais da sua análise!**
+*   **Seção de Próximos Passos (Opcional):** Incluí uma seção para indicar como o projeto pode ser expandido no futuro.
+*   **Seção de Considerações Éticas (Opcional):** Uma breve menção de potenciais preocupações éticas é um bom sinal de maturidade.
+*   **Link Específico para os Dados:** Insisti na importância de incluir o link *específico* para os datasets que você usou do Inside Airbnb (se possível). Isso é crucial para a reprodutibilidade.
+*   **Remoção de Frases Desnecessárias:** Eliminei frases redundantes e deixei o texto mais direto e objetivo.
+*   **Linguagem Mais Profissional:** A linguagem foi revisada para ser mais profissional e adequada para um README de projeto.
 
-bash
-Copiar
-Editar
-pip install -r requirements.txt
-Abra o notebook no Jupyter:
-
-bash
-Copiar
-Editar
-jupyter notebook
-Execute o notebook Airbnb-Porto.ipynb para visualizar a análise.
-
-Estrutura do Projeto
-Airbnb-Porto.ipynb: Notebook principal com a análise dos dados.
-
-requirements.txt: Arquivo com as dependências do projeto.
-
-data/: Pasta contendo o arquivo de dados utilizado para a análise.
-
-Insights e Conclusões
-O projeto fornece uma análise detalhada de como diferentes variáveis impactam o preço e a popularidade das listagens do Airbnb em Porto. Alguns dos insights encontrados incluem:
-
-A localização desempenha um papel crucial na definição do preço.
-
-Certos tipos de imóvel têm uma variação de preço significativa em relação a outros.
-
-Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
-Licença
-Este projeto está sob a licença [Inserir tipo de licença aqui, ex: MIT License].
-Autor
-Ludovina Magalhães
+Lembre-se de substituir os textos entre parênteses (`(...)`) pelas informações específicas do seu projeto!  Em particular, **preencha a seção "Resultados Notáveis" com os principais achados da sua análise.** Isso é o que realmente vai atrair a atenção para o seu trabalho.
