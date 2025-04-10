@@ -1,57 +1,74 @@
-Análise dos Dados do Airbnb no Porto
-Este repositório contém um notebook Jupyter (Airbnb-Porto.ipynb) que explora e analisa dados do Airbnb na cidade do Porto. O objetivo principal é fornecer insights sobre o mercado de aluguel de curto prazo no Porto, identificar tendências, e responder a perguntas relevantes sobre preços, disponibilidade, tipos de acomodação e outros fatores que influenciam o mercado.
-Conteúdo
-Airbnb-Porto.ipynb: Este é o notebook principal que contém todo o código e a análise. Ele inclui:
-Importação e limpeza dos dados do Airbnb.
-Análise exploratória de dados (EDA) para entender a distribuição das variáveis e identificar padrões.
-Visualizações gráficas para comunicar os insights de forma clara e concisa.
-Análise de preços, disponibilidade, tipos de acomodação e outros fatores relevantes.
-Possível modelagem preditiva (dependendo da complexidade da análise realizada).
-Conclusões e insights finais sobre o mercado do Airbnb no Porto.
-Fontes de Dados
-Os dados utilizados neste projeto foram obtidos do site Inside Airbnb (http://insideairbnb.com/get-the-data/). Este site fornece conjuntos de dados públicos com informações sobre listagens do Airbnb em diversas cidades ao redor do mundo.
-Metodologia
-O notebook segue uma abordagem típica de análise de dados, que inclui as seguintes etapas:
-Coleta de Dados: Obtenção dos dados do Inside Airbnb e carregamento em um DataFrame do Pandas.
-Limpeza de Dados: Tratamento de valores ausentes, remoção de outliers e formatação de dados para garantir a qualidade da análise.
-Análise Exploratória de Dados (EDA):
-Análise descritiva das variáveis para entender suas distribuições.
-Visualizações gráficas (histogramas, gráficos de dispersão, boxplots, etc.) para identificar padrões e relações entre as variáveis.
-Análise de correlação para identificar variáveis que se movem juntas.
-Análise Específica: Investigação de questões específicas sobre o mercado do Airbnb no Porto, como:
-Quais são os bairros com os preços mais altos?
-Qual é a variação dos preços ao longo do ano?
-Quais são os tipos de acomodação mais comuns e seus preços médios?
-Como a disponibilidade afeta os preços?
-(Opcional) Criação de modelos preditivos para prever preços com base em outras variáveis.
-Conclusões e Insights: Apresentação dos principais insights e conclusões da análise.
-Bibliotecas Utilizadas
-Este projeto utiliza as seguintes bibliotecas Python:
-Pandas: Para manipulação e análise de dados tabulares.
-NumPy: Para computação numérica.
-Matplotlib: Para criação de gráficos e visualizações.
-Seaborn: Para criação de visualizações estatísticas mais avançadas.
-Scikit-learn (sklearn): (Opcional) Para modelagem preditiva.
-Certifique-se de ter estas bibliotecas instaladas antes de executar o notebook. Você pode instalá-las usando o pip:
-pip install pandas numpy matplotlib seaborn scikit-learn
-Use code with caution.
-Bash
-Como Executar o Notebook
-Clone este repositório para o seu computador:
+Análise de Dados do Airbnb - Porto
+Este repositório contém um projeto de análise de dados sobre o Airbnb em Porto. O objetivo é explorar e analisar dados de listagens de imóveis do Airbnb, utilizando Python e suas bibliotecas de análise de dados.
+
+Descrição
+O projeto busca fornecer insights sobre o mercado de aluguel de curto prazo em Porto, explorando fatores como preço, localização, tipo de imóvel e outros atributos importantes. A análise também inclui visualizações que ajudam a entender as principais tendências do mercado de Airbnb na cidade.
+
+Objetivos do Projeto
+Análise Exploratória de Dados (EDA): Explorar as principais características dos dados, como distribuições, correlações e outras métricas relevantes.
+
+Limpeza de Dados: Preparar os dados para análise, tratando valores ausentes, duplicados e inconsistências.
+
+Visualização de Dados: Criar gráficos e visualizações para destacar padrões, tendências e insights.
+
+Análise de Preços: Examinar os fatores que influenciam o preço dos imóveis no Porto, como o tipo de imóvel, a localização e outros atributos.
+
+Ferramentas e Tecnologias
+Python
+
+Pandas
+
+Matplotlib
+
+Seaborn
+
+NumPy
+
+Jupyter Notebook
+
+Como Rodar o Projeto
+Clone o repositório:
+
+bash
+Copiar
+Editar
 git clone https://github.com/ludovina-magalhaes/Airbnb-Porto.git
-Use code with caution.
-Bash
 Navegue até o diretório do projeto:
+
+bash
+Copiar
+Editar
 cd Airbnb-Porto
-Use code with caution.
-Bash
-Certifique-se de ter as bibliotecas necessárias instaladas (ver "Bibliotecas Utilizadas").
-Execute o notebook Jupyter:
-jupyter notebook Airbnb-Porto.ipynb
-Use code with caution.
-Bash
-Contribuições
-Contribuições para este projeto são bem-vindas! Se você encontrar erros, tiver sugestões de melhorias ou quiser adicionar novas análises, sinta-se à vontade para abrir um pull request.
+Instale as dependências necessárias (recomenda-se o uso de um ambiente virtual):
+
+bash
+Copiar
+Editar
+pip install -r requirements.txt
+Abra o notebook no Jupyter:
+
+bash
+Copiar
+Editar
+jupyter notebook
+Execute o notebook Airbnb-Porto.ipynb para visualizar a análise.
+
+Estrutura do Projeto
+Airbnb-Porto.ipynb: Notebook principal com a análise dos dados.
+
+requirements.txt: Arquivo com as dependências do projeto.
+
+data/: Pasta contendo o arquivo de dados utilizado para a análise.
+
+Insights e Conclusões
+O projeto fornece uma análise detalhada de como diferentes variáveis impactam o preço e a popularidade das listagens do Airbnb em Porto. Alguns dos insights encontrados incluem:
+
+A localização desempenha um papel crucial na definição do preço.
+
+Certos tipos de imóvel têm uma variação de preço significativa em relação a outros.
+
+Licença
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
 Licença
 Este projeto está sob a licença [Inserir tipo de licença aqui, ex: MIT License].
 Autor
